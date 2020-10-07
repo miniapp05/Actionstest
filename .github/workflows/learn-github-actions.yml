@@ -2,7 +2,7 @@ name: learn-github-actions
 on: [push]
 jobs:
   say-hello:
-    runs-on: 
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: echo "Github actions is better than  jenkins"
